@@ -1,0 +1,13 @@
+<div class="img-header" style=" display: flex; justify-content: center; align-items:center">
+    <span style=" font-family: 'Nunito'; font-weight: bold; font-size: 2rem; color: white"> SOBRE NÓS </span>
+</div>
+<div
+    style="font-family: 'Nunito'; font-weight: bold; font-size: 1rem;;background-color: rgb(252, 94, 90); display: flex;color: white; justify-content: space-around; height: 3.5rem; align-items: center">
+    <span (click)="nossaHistoria()" [ngClass]="{'clicked':historia}" style="cursor:pointer">NOSSA
+        HISTÓRIA</span> <span [ngClass]="{'clicked-proj':proj}" (click)="projetos()"
+        style="cursor:pointer">PROJETOS</span><span (click)="organograma()" style="cursor:pointer"
+        [ngClass]="{'clicked':org}">ORGANOGRAMA</span>
+</div>
+<app-nossa-historia *ngIf="historia"></app-nossa-historia>
+<app-organograma *ngIf="org"></app-organograma>
+<app-projetos *ngIf="proj"></app-projetos>

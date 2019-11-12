@@ -1,0 +1,23 @@
+.img-header {
+  background: url('../../assets/Sobre\ Nos/banner.jpg');
+  height: 20rem;
+}
+
+.router-link-active {
+  background-color: rgb(112, 64, 199);
+  width: 3rem;
+}
+
+.clicked {
+  background-color: rgb(112, 64, 199);
+  height: 3.5rem;
+  width: 10rem;
+  display: flex;
+  padding-left: 1.3rem;
+  align-items: center;
+}
+
+.clicked-proj {
+  @extend .clicked;
+  width: 7rem;
+}

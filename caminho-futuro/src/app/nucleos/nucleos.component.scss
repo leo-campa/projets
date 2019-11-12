@@ -1,0 +1,30 @@
+.img-header {
+  background: url('../../assets/Nucleos/banner_nucleos.jpg');
+  height: 20rem;
+}
+
+.container-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.images {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 3rem;
+}
+
+.single-image {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.wrap {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  width: 45%;
+  flex-direction: unset;
+}

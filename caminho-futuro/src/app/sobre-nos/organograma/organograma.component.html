@@ -1,0 +1,54 @@
+<div style="background-color: rgb(245,245,245); padding-bottom:3rem">
+    <div style="display:flex; justify-content:center;padding-top: 3rem;padding-bottom: 3rem">
+        <span style=" font-size: 1.7rem;font-family: 'Nunito';  font-weight:800;color:rgb(112, 64, 199)"> Pessoas que
+            acreditam
+            na educação e na sociedade em que vivemos.</span></div>
+
+
+    <div style="margin-left: 15rem">
+        <span style=" font-size: 0.9rem;font-family: 'Nunito';  font-weight:800;color:rgb(112, 64, 199)">[ DIRETORIA
+            ]</span>
+        <ul style=" font-size: 0.9rem;font-family: 'Nunito'; margin-left: -1.7rem">
+            <li *ngFor="let item of diretoria">
+                <span style="font-weight: bold">{{item.type}}:</span> {{item.content}}
+            </li>
+        </ul>
+        <span style=" font-size: 0.9rem;font-family: 'Nunito';  font-weight:800;color:rgb(112, 64, 199)">[ CONSELHO
+            FISCAL
+            ]</span>
+        <ul style=" font-size: 0.9rem;font-family: 'Nunito'; margin-left: -1.7rem">
+            <li *ngFor="let item of conselho">
+                {{item}}
+            </li>
+        </ul>
+        <span style=" font-size: 0.9rem;font-family: 'Nunito';  font-weight:800;color:rgb(112, 64, 199)">[ GESTORAS DA
+            ORGANIZAÇÃO ] </span>
+        <ul style=" font-size: 0.9rem;font-family: 'Nunito'; margin-left: -1.7rem">
+            <li *ngFor="let item of gestoras">
+                {{item}}
+            </li>
+        </ul>
+        <span style=" font-size: 0.9rem;font-family: 'Nunito';  font-weight:800;color:rgb(112, 64, 199)">[ COORDENADORA
+            DE CAPTAÇÃO DE RECURSOS ] </span>
+        <ul style=" font-size: 0.9rem;font-family: 'Nunito'; margin-left: -1.7rem">
+            <li>
+                Ione Anselmo Cosmo
+            </li>
+        </ul>
+        <span style=" font-size: 0.9rem;font-family: 'Nunito';  font-weight:800;color:rgb(112, 64, 199)">[ ASSISTENTE
+            ADMINISTRATIVA ] </span>
+        <ul style=" font-size: 0.9rem;font-family: 'Nunito'; margin-left: -1.7rem">
+            <li>
+                Lucilene Nunes
+            </li>
+        </ul>
+        <span style=" font-size: 0.9rem;font-family: 'Nunito';  font-weight:800;color:rgb(112, 64, 199)">[ DIREÇÃO DOS
+            NÚCLEOS
+            ]</span>
+        <ul style=" font-size: 0.9rem;font-family: 'Nunito'; margin-left: -1.7rem">
+            <li *ngFor="let item of direcao">
+                <span style="font-weight: bold">{{item.type}}:</span> {{item.content}}
+            </li>
+        </ul>
+    </div>
+</div>

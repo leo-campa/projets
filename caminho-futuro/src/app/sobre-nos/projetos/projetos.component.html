@@ -1,0 +1,20 @@
+<div class="images ">
+    <div>
+        <div class="wrap" *ngFor="let item of projetos">
+
+            <img style="width: 25%" [src]="item.img">
+            <div style="display: flex;
+                flex-direction: column;
+                align-items: self-start;font-family: 'Nunito';font-weight: 200">
+                <span style="text-align: center; 
+                    padding-left: 1.5rem; color: rgb(112, 64, 199); font-weight: 800">{{item.title}}
+                </span>
+                <p style="padding-left: 1.8rem; text-align: justify;padding-bottom: 1rem">
+                    {{item.text}}
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,122 @@
+.container {
+  display: flex;
+  width: 80%;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+  transform: translateY(-48rem) translateX(8rem);
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  display: flex;
+}
+
+:host {
+  .button-shape {
+    cursor: pointer;
+    width: 40% !important;
+    border-radius: 5rem;
+    font-weight: bold;
+    color: white;
+
+    font-size: 2rem;
+    background-color: rgb(115, 61, 203);
+  }
+
+  .align-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 0.25rem;
+  }
+
+  .text {
+    display: flex;
+    width: 60%;
+    height: 5%;
+    flex-wrap: wrap;
+  }
+
+  .title {
+    color: rgb(115, 61, 203);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+  }
+
+  .text-content {
+    font-family: 'Nunito', sans-serif;
+    font-size: 22px;
+    text-align: justify;
+    font-weight: normal;
+  }
+
+  .text-image {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  .image-size {
+    width: 20%;
+    height: 25rem;
+    transform: translateY(5rem);
+  }
+
+  .title-projetos {
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    color: rgb(252, 94, 90);
+    font-family: 'Nunito', sans-serif;
+    font-size: 50px;
+  }
+
+  .img-projects {
+    padding-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+  .items-project {
+    color: rgb(115, 61, 203);
+    font-family: 'Nunito', sans-serif;
+    width: 30%;
+    text-align: center;
+    font-size: 36px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .size-banner {
+    height: 20rem;
+  }
+
+  .text-banner {
+    @extend .content;
+    font-family: 'Nunito';
+  }
+
+  .position-banner {
+    background: url('../../assets/Home/banner_doação.jpg');
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+  }
+
+  .banner-wrap {
+    @extend .content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .button-shape--banner {
+    @extend .button-shape;
+    background-color: rgb(252, 94, 90);
+  }
+}

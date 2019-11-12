@@ -1,0 +1,17 @@
+.img-header {
+  background: url('../../assets/Contato/banner.png');
+  height: 20rem;
+}
+.button-shape {
+  width: 20% !important;
+  border-radius: 5rem;
+  font-weight: bold;
+  color: white;
+  text-indent: 0.4rem;
+  font-size: 0.9rem;
+  background-color: rgb(115, 61, 203);
+}
+.button-shape--banner {
+  @extend .button-shape;
+  background-color: rgb(252, 94, 90);
+}

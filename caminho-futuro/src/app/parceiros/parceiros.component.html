@@ -1,0 +1,12 @@
+<div class="img-header" style=" display: flex; justify-content: center; align-items:center">
+    <span style=" font-family: 'Nunito'; font-weight: bold; font-size: 2rem; color: white"> PARCEIROS </span>
+</div>
+<div style="font-family: 'Nunito';background-color: rgb(252, 94, 90);height: auto;">
+    <div style=" padding-bottom: 3rem; padding-top: 3rem; width: 70%; text-align: center; padding-left: 10rem">
+        <span style="font-weight:bold; color: white;font-size: 2rem">Nossos Parceiros: </span><span
+            style=" font-family: 'Nunito'; font-weight: 400; font-size: 2rem; color: white"> uma relação de amizade e
+            responsabilidade com o fazer bem! </span></div>
+    <div
+        style="padding-bottom: 4rem; display: flex; flex-wrap:wrap;width: 70%;justify-content: center;padding-left: 10rem;">
+        <img *ngFor="let item of parceiros" [src]="item"></div>
+</div>
