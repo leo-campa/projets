@@ -6,8 +6,10 @@
     <span (click)="nossaHistoria()" [ngClass]="{'clicked':historia}" style="cursor:pointer">NOSSA
         HISTÓRIA</span> <span [ngClass]="{'clicked-proj':proj}" (click)="projetos()"
         style="cursor:pointer">PROJETOS</span><span (click)="organograma()" style="cursor:pointer"
-        [ngClass]="{'clicked':org}">ORGANOGRAMA</span>
+        [ngClass]="{'clicked':org}">ORGANOGRAMA</span><span (click)="nossosValores()" style="cursor:pointer"
+        [ngClass]="{'clicked':valores}">NOSSOS VALORES</span>
 </div>
 <app-nossa-historia *ngIf="historia"></app-nossa-historia>
 <app-organograma *ngIf="org"></app-organograma>
 <app-projetos *ngIf="proj"></app-projetos>
+<app-nossos-valores *ngIf="valores"></app-nossos-valores>

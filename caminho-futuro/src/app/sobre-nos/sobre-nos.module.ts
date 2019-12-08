@@ -8,13 +8,15 @@ import { OrganogramaComponent } from './organograma/organograma.component';
 import { NossaHistoriaComponent } from './nossa-historia/nossa-historia.component';
 import { AppComponent } from '../app.component';
 import { CommonModule } from '@angular/common';
+import { NossosValoresComponent } from './nossos-valores/nossos-valores.component';
 
 @NgModule({
   declarations: [
     SobreNosComponent,
     ProjetosComponent,
     OrganogramaComponent,
-    NossaHistoriaComponent
+    NossaHistoriaComponent,
+    NossosValoresComponent
   ],
   imports: [SobreNosRouterModule, CommonModule],
   providers: []
