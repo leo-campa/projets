@@ -23,9 +23,25 @@
     </div>
     <div style="display:flex;flex-wrap: wrap;width: 60%">
 
-        <img style="width: 50%" src="../../assets/Doacao/ic_dinheiro.png">
+        <img *ngIf="hideImage" (click)="showBank()" style="width: 50%; cursor: pointer;" src="../../assets/Doacao/ic_dinheiro.png">
 
+        <div *ngIf="!hideImage" style="display: flex; flex-direction: column;">
+           
+            <span style="font-weight: 800;font-family: 'Nunito';  font-size: 1.5rem; color: rgb(115, 61, 203);">Banco Bradesco (237)</span>
+            <div style="display: flex; align-items: baseline;">
+            <span style="font-weight: 800;font-family: 'Nunito';  font-size: 1.2rem; color: rgb(115, 61, 203);"> Agência:</span><span style="font-family: 'Nunito'; font-weight: 400; font-size: 1.2rem; padding-left: 0.3rem;">2221</span></div>
+            <div style="display: flex; align-items: baseline;">
+
+            <span style="font-weight: 800;font-family: 'Nunito';  font-size: 1.2rem; color: rgb(115, 61, 203);" >Conta Corrente:</span><span style="font-family: 'Nunito'; font-weight: 400; font-size: 1.2rem;  padding-left: 0.3rem;">0005764-9</span></div>
+            <div style="display: flex; align-items: baseline;">
+
+            <span style="font-weight: 800;font-family: 'Nunito';  font-size: 1.2rem; color: rgb(115, 61, 203);">CNPJ:</span><span style="font-family: 'Nunito'; font-weight: 400; font-size: 1.2rem;  padding-left: 0.3rem;">47.389.788/0001-33</span></div>
+            <span style="font-family: 'Nunito'; font-weight: 800; font-size: 1rem; color: rgb(115, 61, 203); text-align: left;">SOCIEDADE BENEFICENTE CAMINHANDO PARA O FUTURO</span>
+
+        </div>
         <span style=" width: 60%;font-family: 'Nunito'; font-weight: 800; font-size: 2rem; color: rgb(115, 61, 203);">
-            Doação Financeira</span></div>
+            Doação Financeira</span>
+       
+        </div>
 
 </div>

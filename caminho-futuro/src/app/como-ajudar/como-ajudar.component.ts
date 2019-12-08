@@ -5,4 +5,11 @@ import { Component } from '@angular/core';
   templateUrl: 'como-ajudar.component.html',
   styleUrls: ['como-ajudar.component.scss']
 })
-export class ComoAjudarComponent {}
+export class ComoAjudarComponent {
+
+  hideImage = true;
+
+  showBank() {
+    this.hideImage = false;
+  }
+}
