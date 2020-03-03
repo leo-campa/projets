@@ -22,7 +22,7 @@ export class OrganogramaComponent {
       content: 'Alzira Teodoro do Nascimento'
     },
     {
-      typer: 'Assistente Administrativo',
+      type: 'Assistente Administrativo',
     content: 'Lucilene Nunes da Silva'},
     {
       type: '2 Secretário',
