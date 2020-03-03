@@ -85,6 +85,15 @@ export class NucleosComponent {
       item2: 'R. Raimundo carneiro, 180, Jardim Carombé',
       email: 'canarinho@caminhandofuturo.org.br',
       tel: ' 11 3921-7324'
+    },
+        {
+      title: 'CCA Canarinho',
+      img: '../../assets/Nucleos/img_canarinho.png',
+      item1: '180 crianças atendidas, faixa etária de 6 a 15 anos de idade ',
+
+      item2: 'R. Raimundo carneiro, 180, Jardim Carombé',
+      email: 'canarinho@caminhandofuturo.org.br',
+      tel: ' 11 3921-7324'
     }
   ];
 }

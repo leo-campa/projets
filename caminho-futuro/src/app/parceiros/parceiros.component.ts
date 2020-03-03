@@ -14,6 +14,10 @@ export class ParceirosComponent {
     '../../assets/Parceiros/img-bancodobrasil.png',
     '../../assets/Parceiros/img-fundo-social.png',
     '../../assets/Parceiros/img-sabesp.png',
-    '../../assets/Parceiros/img-provida.png'
+    '../../assets/Parceiros/img-provida.png',
+    '../../assets/Parceiros/img-nac.png',
+    '../../assets/Parceiros/img-abas.png',
+    '../../assets/Parceiros/img-alersp.png',
+
   ];
 }
